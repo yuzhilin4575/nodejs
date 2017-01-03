@@ -59,3 +59,8 @@ app.use(function *(next) {
 
 app.listen(1234)
 console.log('Listening:1234')
+ 
+ 
+ 
+ node --harmony app.js 运行项目  
+ 
