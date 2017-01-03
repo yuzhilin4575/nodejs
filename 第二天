@@ -16,7 +16,7 @@ var sha1 = require('sha1')
       return function *(next) {
          console.log(this.query)
 
-          var token = opts.wechat.token
+          var token = opts.token
           var signature = this.query.signature
           var nonce = this.query.nonce
           var timestamp = this.query.timestamp
@@ -61,3 +61,6 @@ var app = new Koa()
 app.use(wechat(config.wechat))
 app.listen(1234)
 console.log('Listening:1234')
+   
+   
+   然后运行项目 点击微信配置  显示配置成功
