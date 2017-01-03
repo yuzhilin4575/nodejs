@@ -1,0 +1,17 @@
+js  sdk             授权地址
+yield                   es6
+koa                 处理服务器应用初始化 接口调用 数据响应
+promise             bluebird   处理封装异步请求
+request            网络请求 
+ejs                  微信 数据包装xml 把数据作为变量替换到xml字符中
+lodash              做数组拆分
+Heredoc            把函数体多行注释作为字符串提取  用来降低拼接字符串成本
+raw-body          获取http请求返回的可读内容实体
+sha1             加密
+xml2js 模块        把微信服务器返回的数据xml解析为js对象
+
+ 配置 接入流程
+ 加密认证环节
+ 票据 access_token
+ 
+ 测试公众账号
